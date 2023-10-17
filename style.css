@@ -3,7 +3,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
-    color: white;
+    color: rgb(223, 224, 226)
 }
 
 .gridcontainer {
@@ -30,7 +30,6 @@ header {
 section {
     grid-row: 3;
     grid-column: 1;
-    color: white;
     padding: 70px;
     font-size: 18px;
 }
@@ -40,7 +39,6 @@ footer {
     grid-column: 1 / span 2;
     text-align: center;
     background-color: rgba(255, 255, 255, 0.075);
-    color: white;
 }
 
 aside {
@@ -54,7 +52,6 @@ aside {
     max-width: 800px;
     background-color: rgba(162, 174, 187, 0.667);
     border-radius: 5px;
-    color: black;
 }
 
 .contentN {
@@ -63,7 +60,7 @@ aside {
     max-width: 800px;
     background-color: rgba(162, 174, 187, 0.667);
     border-radius: 5px;
-    color: black;
+    color: rgb(223, 224, 226);
 }
 
 .content p {
@@ -75,7 +72,7 @@ aside {
     text-align: center;
     margin: 0 auto;
     margin: 30px;
-    border-radius: 10px;
+    border-radius: 50px;
 }
 
 .top-bar {
@@ -104,7 +101,7 @@ aside {
     color: black;
 }
 
-.top-bar li:hover {
+.topBarText:hover {
     background-color: rgba(0, 0, 0, 0.092);
 }
 
@@ -115,16 +112,16 @@ aside {
     height: auto;
     height: auto;
     width: 170px;
-    border-radius: 3px;
+    border-radius: 10px;
     transform: translateY(-70%);
     padding: 10px;
     font-size: 15px;
     padding-bottom: 15px;
-    color: black;
 }
 
 .SideBox a {
-    color: black;
+    color: rgb(223, 224, 226);
+    text-align: center;
 }
 
 .SideBox li {
@@ -132,10 +129,6 @@ aside {
 }
 
 .SideBox p {
-    text-align: center;
-}
-
-.SideBox a {
     text-align: center;
 }
 
@@ -156,14 +149,11 @@ aside {
     border-radius: 3px;
 }
 
-.cartIcon {
-    width: 50px;
-    margin-left: 150px;
-}
-
 .LogoIcon {
-    width: 80px;
+    width: 90px;
     margin-right: 150px;
+    position: relative;
+    bottom: 10px;
 
 }
 
@@ -172,11 +162,11 @@ aside {
     bottom: 13px;
     text-align: center;
     left: 12%;
-    bottom: 29px;
+    bottom: 40px;
 }
 
 .NewsBlock {
-    background-color: rgba(255, 255, 255, 0.673);
+    background-color: rgba(0, 0, 0, 0.39);
     padding: 5px;
     border-radius: 5px;
 }
