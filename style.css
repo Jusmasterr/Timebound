@@ -9,7 +9,7 @@ body {
 .gridcontainer {
     display: grid;
     grid-template-columns: 1fr 200px;
-    grid-template-rows: 90px 400px auto auto;
+    grid-template-rows: 90px 360px auto 400px;
 }
 
 nav {
@@ -39,6 +39,7 @@ footer {
     grid-column: 1 / span 2;
     text-align: center;
     background-color: rgba(255, 255, 255, 0.075);
+    background-image: url(backInverted.png);
 }
 
 aside {
@@ -179,4 +180,9 @@ aside {
     background-color: white;
     margin-right: 40%;
     padding: 3px;
+}
+
+.org {
+    width: 90%;
+    margin-left: 40px;
 }
