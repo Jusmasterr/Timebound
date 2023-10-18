@@ -67,6 +67,10 @@ aside {
     text-align: center;
 }
 
+.content h3 {
+    text-align: center;
+}
+
 .header-content {
     background-color: rgba(0, 0, 0, 0.16);
     text-align: center;
@@ -167,13 +171,12 @@ aside {
 
 .NewsBlock {
     background-color: rgba(0, 0, 0, 0.39);
-    padding: 5px;
-    border-radius: 5px;
+    padding: 10px;
+    border-radius: 10px;
 }
 
 .picBox {
     background-color: white;
-    border-radius: 5px;
     margin-right: 40%;
     padding: 3px;
 }
