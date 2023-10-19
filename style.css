@@ -40,6 +40,7 @@ footer {
     text-align: center;
     background-color: rgba(255, 255, 255, 0.075);
     background-image: url(backInverted.png);
+    background: linear-gradient(to bottom, rgb(7, 16, 19), rgb(84, 89, 95));
 }
 
 aside {
@@ -51,8 +52,9 @@ aside {
     padding: 50px;
     margin: 0 auto;
     max-width: 800px;
-    background-color: rgba(162, 174, 187, 0.667);
+    background-color: rgb(162, 174, 187);
     border-radius: 5px;
+    background: linear-gradient(to top, rgba(162, 174, 187, 0.371), rgb(126, 137, 148));
 }
 
 .contentN {
@@ -62,6 +64,11 @@ aside {
     background-color: rgba(162, 174, 187, 0.667);
     border-radius: 5px;
     color: rgb(223, 224, 226);
+    background: linear-gradient(to top, rgba(162, 174, 187, 0.371), rgb(126, 137, 148));
+}
+
+.contentN a {
+    color: rgb(186, 186, 186);
 }
 
 .content p {
@@ -78,6 +85,8 @@ aside {
     margin: 0 auto;
     margin: 30px;
     border-radius: 50px;
+    
+    
 }
 
 .top-bar {
@@ -114,6 +123,7 @@ aside {
 .SideBox {
     position: fixed;
     background-color: rgb(162, 174, 187, 0.667);
+    background: linear-gradient(to top, rgba(162, 174, 187, 0.371), rgb(126, 137, 148));
     height: auto;
     height: auto;
     width: 170px;
@@ -125,7 +135,7 @@ aside {
 }
 
 .SideBox a {
-    color: rgb(223, 224, 226);
+    color: rgb(186, 186, 186);
     text-align: center;
 }
 
@@ -185,4 +195,12 @@ aside {
 .org {
     width: 90%;
     margin-left: 40px;
+}
+
+.link {
+    color: rgb(186, 186, 186);
+}
+
+.picBox img {
+    width: 450px;
 }
