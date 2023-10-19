@@ -53,8 +53,18 @@ aside {
     margin: 0 auto;
     max-width: 800px;
     background-color: rgb(162, 174, 187);
-    border-radius: 5px;
+    border-radius: 10px;
     background: linear-gradient(to top, rgba(162, 174, 187, 0.371), rgb(126, 137, 148));
+}
+
+.contentB {
+    padding-bottom: 10px;
+    margin: 0 auto;
+    max-width: 800px;
+    background-color: rgb(162, 174, 187);
+    border-radius: 10px;
+    background: linear-gradient(to top, rgba(162, 174, 187, 0.371), rgb(126, 137, 148));
+    text-align: center;
 }
 
 .contentN {
@@ -62,10 +72,20 @@ aside {
     margin: 0 auto;
     max-width: 800px;
     background-color: rgba(162, 174, 187, 0.667);
-    border-radius: 5px;
+    border-radius: 10px;
     color: rgb(223, 224, 226);
     background: linear-gradient(to top, rgba(162, 174, 187, 0.371), rgb(126, 137, 148));
 }
+
+.contentP {
+    padding: 50px;
+    margin: 0 auto;
+    max-width: 800px;
+    background-color: rgb(162, 174, 187);
+    border-radius: 5px;
+    background: linear-gradient(to top, rgba(162, 174, 187, 0.371), rgb(126, 137, 148));
+}
+
 
 .contentN a {
     color: rgb(186, 186, 186);
@@ -203,4 +223,46 @@ aside {
 
 .picBox img {
     width: 450px;
+}
+
+.productPic{
+    width: 300px;
+}
+
+.productGrid {
+    grid-template-columns: 320px auto;
+    display: grid;
+    
+}
+
+.productPic {
+    grid-column: 1;
+}
+
+.productDescription {
+    grid-column: 2;
+    
+}
+
+.shortD {
+    font-size: 15px;
+    color: rgb(186, 186, 186);
+}
+
+.hFinden {
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 800;
+    background-color: rgba(0, 0, 0, 0.39);
+    margin-left: 250px;
+}
+
+.FindenA a {
+    color: rgb(186, 186, 186);
+    text-decoration: none;
+}
+
+.hFinden a:hover {
+    cursor: wait;
 }
