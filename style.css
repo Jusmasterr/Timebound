@@ -196,7 +196,7 @@ aside {
     position: relative;
     bottom: 13px;
     text-align: center;
-    left: 12%;
+    left: 2%;
     bottom: 40px;
 }
 
@@ -264,5 +264,5 @@ aside {
 }
 
 .hFinden a:hover {
-    cursor: wait;
+    cursor: pointer;
 }
